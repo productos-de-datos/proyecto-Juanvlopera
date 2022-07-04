@@ -33,8 +33,3 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     make_features()
-
-if __name__ == "__main__":
-    import doctest
-
-    doctest.testmod()

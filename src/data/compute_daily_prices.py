@@ -4,6 +4,7 @@ Modulo para la obtencion de los precios promedios diarios:
 Usando el archivo precios-horarios.csv, se genera por cada fecha el precio promedio diario
 y se guarda en la ruta /data_lake/business/
 """
+
 def compute_daily_prices():
     """Compute los precios promedios diarios.
 

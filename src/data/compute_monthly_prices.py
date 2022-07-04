@@ -4,6 +4,7 @@ Modulo para la obtencion de los precios promedios mensuales:
 Usando el archivo precios-horarios.csv, se genera por cada fecha el precio promedio mensual
 y se guarda en la ruta /data_lake/business/
 """
+
 def compute_monthly_prices():
     """Compute los precios promedios mensuales.
 

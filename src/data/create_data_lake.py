@@ -3,6 +3,7 @@ En estos modulos creamos el data lake, con sus subcarpetas, en donde se podrán 
 todos los datos estructurados y no estructurados, para cualquier escala. 
 
 """
+
 def proyecto_principal():
     from pathlib import Path
     return Path(__file__).parent.parent.parent
