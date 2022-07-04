@@ -1,13 +1,13 @@
 """
 Módulo de ingestión de datos.
 -------------------------------------------------------------------------------
-Se descargan los datos y se guardan en la carpeta landing. 
+Procedemos a descargar el conjunto de datos y Luego los depositaremos en la carpeta landing. 
 
 """
 
 
 def ingest_data():
-     """Ingeste los datos externos a la capa landing del data lake.
+    """Ingeste los datos externos a la capa landing del data lake.
 
     Del repositorio jdvelasq/datalabs/precio_bolsa_nacional/xls/ descarge los
     archivos de precios de bolsa nacional en formato xls a la capa landing. La
