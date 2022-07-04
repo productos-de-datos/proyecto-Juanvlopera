@@ -16,7 +16,7 @@ def ingest_data():
     """
     import os
     import pandas as pd
-    
+    import xlwt
     import openpyxl
 
     def download_files(start_year, end_year, wdir, fpath):
