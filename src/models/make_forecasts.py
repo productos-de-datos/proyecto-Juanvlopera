@@ -19,7 +19,6 @@ def make_forecasts():
 
     * El pronóstico del precio promedio real.
 
-
     """
     daily_data = read_data()
     train, valid = spliting_data(daily_data)
